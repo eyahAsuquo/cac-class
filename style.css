@@ -1075,9 +1075,13 @@
       #sticky-cta { left: var(--space-4); right: var(--space-4); transform: translateY(120px); width: auto; }
       #sticky-cta.visible { transform: translateY(0); }
       #countdown { flex-wrap: wrap; }
+      #nav-enroll-btn { font-size: 0.875rem !important; padding: 0.5rem 1rem !important; }
+      #full-enrol-btn { font-size: 1rem !important; padding: var(--space-4) var(--space-8) !important; }
     }
 
     @media (max-width: 480px) {
       .hero-cta-row { flex-direction: column; align-items: flex-start; }
       .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      #nav-enroll-btn { font-size: 0.8rem !important; padding: 0.45rem 0.9rem !important; }
+      #full-enrol-btn { font-size: 0.95rem !important; padding: var(--space-3) var(--space-6) !important; }
     }
