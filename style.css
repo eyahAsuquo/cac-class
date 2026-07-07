@@ -1077,6 +1077,7 @@
       #countdown { flex-wrap: wrap; }
       #nav-enroll-btn { font-size: 0.875rem !important; padding: 0.5rem 1rem !important; }
       #full-enrol-btn { font-size: 1rem !important; padding: var(--space-4) var(--space-8) !important; }
+      .hero-badge-row .badge { font-size: 0.65rem !important; padding: 0.25rem 0.65rem !important; letter-spacing: 0.05em; }
     }
 
     @media (max-width: 480px) {
@@ -1084,4 +1085,5 @@
       .proof-grid { grid-template-columns: repeat(2, 1fr); }
       #nav-enroll-btn { font-size: 0.8rem !important; padding: 0.45rem 0.9rem !important; }
       #full-enrol-btn { font-size: 0.95rem !important; padding: var(--space-3) var(--space-6) !important; }
+      .hero-badge-row .badge { font-size: 0.6rem !important; padding: 0.2rem 0.55rem !important; }
     }
